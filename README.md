@@ -1,5 +1,5 @@
-# Furever Homes
-#### Pet Adoption & Shelter Management 🏡🐶
+# Furever Homes 🏡🐶
+#### Pet Adoption & Shelter Management
 
 Contents
 1) What is "Furever Homes"?
