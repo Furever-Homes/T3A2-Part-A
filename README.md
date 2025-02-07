@@ -10,10 +10,17 @@ Contents
 6) Jira / Trello
 
 ## What is "Furever Homes"?
-- Purpose
-- Functionality / features
-- Target Audience
-- Tech Stack
+Furever homes is a platform which is designed to provide a simple and easy pet adoption experience, while also delivering a way for animal shelters to manage their operations efficiently.
+
+The application includes features such as:
+- Pet search functionality with filtering options
+- Submission of applications
+- Ability to 'favourite' pets
+- Add/Remove pets to the database
+- Update pet details
+- Approve or reject applications
+
+### Tech Stack
 <div align="center">
     <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white" height=30>
     <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height=30>
@@ -24,15 +31,16 @@ Contents
 </div>
 
 ## Dataflow Diagram
-
+(Insert Dataflow Diagram here)
 
 ## Application Architecture Diagram
-
+(Insert Application Architecture Diagram here)
 
 ## User Stories
-
+(Insert User Stories here)
 
 ## Wireframes
-
+(Insert Wireframes here)
 
 ## Jira / Trello
+(Insert Jira/Trello screenshots here)
