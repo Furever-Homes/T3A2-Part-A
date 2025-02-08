@@ -2,12 +2,12 @@
 #### Pet Adoption & Shelter Management
 
 Contents
-1) What is "Furever Homes"?
-2) Dataflow Diagram
-3) Application Architecture Diagram
-4) User Stories
-5) Wireframes
-6) Jira / Trello
+1) [What is "Furever Homes"?](#what-is-furever-homes)
+2) [Dataflow Diagram](#dataflow-diagram)
+3) [Application Architecture Diagram](#application-architecture-diagram)
+4) [User Stories](#user-stories)
+5) [Wireframes](#wireframes)
+6) [Jira / Trello](#jira--trello)
 
 ## What is "Furever Homes"?
 Furever homes is a platform which is designed to provide a simple and easy pet adoption experience, while also delivering a way for animal shelters to manage their operations efficiently.
