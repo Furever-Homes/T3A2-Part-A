@@ -94,7 +94,7 @@ The application includes features such as:
 
 *(Insert Wireframes here)*
 
-## Jira
+## Project Management: Jira
 
 The planning methodology for this project will utilise a software product developed by Atlassian called Jira. This project management tool allows for the easy execution of the agile 'scrum' framework. This will involve applying the following concepts:
 
