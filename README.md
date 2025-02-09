@@ -1,24 +1,26 @@
 # Furever Homes 🏡🐶
-#### A Pet Adoption & Shelter Management Application
 
-Contents
+A Pet Adoption & Shelter Management Application
+
+## Contents
+
 1) [What is "Furever Homes"?](#what-is-furever-homes)
 2) [Dataflow Diagram](#dataflow-diagram)
 3) [Application Architecture Diagram](#application-architecture-diagram)
 4) [User Stories](#user-stories)
 5) [Wireframes](#wireframes)
-6) [Jira / Trello](#jira--trello)
+6) [Jira](#jira)
 
 ## What is "Furever Homes"?
+
 Furever homes is a platform which is designed to provide a simple and easy pet adoption experience, while also delivering a way for animal shelters to manage their operations efficiently.
 
 The application includes features such as:
+
 - Pet search functionality with filtering options
-- Submission of applications
 - Ability for adopters to shortlist pets into a 'favourites' section
-- Add/Remove pets from the database
-- Update pet details
-- Approve or reject applications
+- Application processes (Submit, Approve, Reject)
+- Pet Data Management (CRUD)
 - Secure user registration & login using JWT Authentication
 
 ### Tech Stack
@@ -41,10 +43,12 @@ The application includes features such as:
 **MongoDB**: A NoSQL database solution that stores data in a JSON-like format.
 
 ## Dataflow Diagram
-(Insert Dataflow Diagram here)
+
+*(Insert Dataflow Diagram here)*
 
 ## Application Architecture Diagram
-(Insert Application Architecture Diagram here)
+
+*(Insert Application Architecture Diagram here)*
 
 ## User Stories
 
@@ -87,7 +91,54 @@ The application includes features such as:
 **REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles.
 
 ## Wireframes
-(Insert Wireframes here)
 
-## Jira / Trello
-(Insert Jira/Trello screenshots here)
+*(Insert Wireframes here)*
+
+## Jira
+
+The planning methodology for this project will utilise a software product developed by Atlassian called Jira. This project management tool allows for the easy execution of the agile 'scrum' framework. This will involve applying the following concepts:
+
+### Epics, Stories, Tasks
+
+When tackling a large and difficult project, it is important to be able to breakdown the work into smaller, bite-sized tasks. When implementing an agile scrum framework, these smaller tasks are often referred to as issues, and can then be categorised into epics, stories and subtasks. This structure similarly mimics the methodology of creating long **(project)**, medium **(epic)** and short-term **(stories)** goals respectively.  
+
+**Subtask**: An actionable item which can generally be completed within 1-3 days. A group of relatable tasks will form a user story.
+
+**Story**: Involves capturing user invoked requests and feedback or are created by program managers. Once these stories are approved for action, they are compiled together to form epics. Stories are usually in the form of a request which starts with a persona, followed by a request, and ends with a reason.  
+
+**Epic**: A compilation of stories which work towards a specific aspect or feature of an application.
+
+### Issue Labels
+
+Each issue within the Jira Project will contain an appropriate label to ensure a clear and cohesive team understanding of each task. The applicable labels will include:
+
+- **Frontend**: Issues related to styling or client-side logic
+- **Backend**: Issues related to APIs, database interactions or server-side logic
+- **Design**: Issues related to UX/UI
+- **Documentation**: Task related to updating or writing documentation
+- **Bug**: Issues related to a component that requires fixing
+- **Enhancement**: Tasks which are an addition / improvement to an existing feature
+- **High / Medium / Low Priority**: Categorise issues based on urgency
+
+### Task Assigning
+
+Each issue within the Jira project is to be assigned to a single team member who will be responsible for its completion. This provides a clear delineation of tasks and enhances team coordination.
+
+### Product Backlogs, Sprints & Standups
+
+A **product backlog** is formed by breaking down and categorising all the tasks of the project. Once a backlog is formed, sprint planning, execution and retrospectives can be conducted.
+
+**Sprint Planning**: Involves a team meeting where a discussion is held to determine the tasks from the backlog that will be included in the next sprint. Other components which are determined upon include sprint timeframe, task assignment and overall sprint goals.
+
+**Sprints**: A sprint is a team-focussed period of approximately 2-4 weeks, where each team member is assigned a certain amount of tasks which can reasonably be completed within the chosen timeframe. This will allow for better team collaboration and completion of the project in a timely manner. **Daily standups** are also to be held throughout the sprint. These involve short meetings which help the team discuss pain points, collaborate for better solutions and update the sprint backlog/tasks if required.
+
+### Kanban Board
+
+Jira also provides an integrated kanban board which allows a team to visually undestand task progression and ensure workflow efficiency. The progression of a task can fall under to do, in progress, testing or done.
+
+- **To Do**: A task or issue which has not been started
+- **In Progress**: A task or issue which has been started, but not yet completed
+- **Testing**: A task which has been completed but, requires testing to ensure all requirements/components work as intended
+- **Done**: A task which has been completed and tested with a success result/s
+
+(Insert Jira screenshots here)
