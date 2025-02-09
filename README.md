@@ -124,6 +124,14 @@ Each issue within the Jira Project will contain an appropriate label to ensure a
 
 Each issue within the Jira project is to be assigned to a single team member who will be responsible for its completion. This provides a clear delineation of tasks and enhances team coordination.
 
+### Story Points & Sprint Velocity
+
+Each issue within the Jira project will be assigned an amount of story points. The amount of points given to each issue will correlate to factors such as the amount of effort required, time required, task complexity & task uncertainty. This Jira project will follow the below matrix to provide a cohesive understanding of task complexity between teqam members.
+
+(insert story point matrix here)
+
+**Sprint Velocity** refers to the amount of story points that can be completed by a team within a single sprint. This metric provides the ability for a team to understand what is achievable within a sprint and integrate continuous improvement into their scrum framework. The team will assess this metric after every sprint and provide valuable insights for the next sprint planning session.
+
 ### Product Backlogs, Sprints & Standups
 
 A **product backlog** is formed by breaking down and categorising all the tasks of the project. Once a backlog is formed, sprint planning, execution and retrospectives can be conducted.
