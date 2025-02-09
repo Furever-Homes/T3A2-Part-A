@@ -1,5 +1,5 @@
 # Furever Homes 🏡🐶
-#### Pet Adoption & Shelter Management
+#### A Pet Adoption & Shelter Management Application
 
 Contents
 1) [What is "Furever Homes"?](#what-is-furever-homes)
@@ -15,10 +15,11 @@ Furever homes is a platform which is designed to provide a simple and easy pet a
 The application includes features such as:
 - Pet search functionality with filtering options
 - Submission of applications
-- Ability to 'favourite' pets
-- Add/Remove pets to the database
+- Ability for adopters to shortlist pets into a 'favourites' section
+- Add/Remove pets from the database
 - Update pet details
 - Approve or reject applications
+- Secure user registration & login using JWT Authentication
 
 ### Tech Stack
 <div align="center">
@@ -28,7 +29,16 @@ The application includes features such as:
     <img src="https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" height=30>
     <img src="https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white" height=30>
     <img src="https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" height=30>
-</div>
+</div>  
+
+<br>
+
+**CSS**: Provides styling and accomodates for a responsive web application / user interace.  
+**JavaScript**: A flexible programming language which is utilised for both the frontend and backend logic of the application.  
+**React**: A JavaScript library which allows developers to create dynamic web applications by utilising a component-based architecture.  
+**Node.js**: A JavaScript runtime environment which allows JavaScript to run on the server.  
+**Express**: A backend framework for Node.js which manages API requests, middleware & route handling.  
+**MongoDB**: A NoSQL database solution that stores data in a JSON-like format.
 
 ## Dataflow Diagram
 (Insert Dataflow Diagram here)
