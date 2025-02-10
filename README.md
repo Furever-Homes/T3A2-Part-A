@@ -100,7 +100,7 @@ The planning methodology for this project will utilise a software product develo
 
 ### Epics, Stories, Tasks
 
-![Epics, Stories & Tasks](../T3A2-Part-A/docs/Jira/examples/epic_story_task.png)  
+![Epics, Stories & Tasks](docs/Jira/examples/epic_story_task.png)  
 
 When tackling a large and difficult project, it is important to be able to breakdown the work into smaller, bite-sized tasks. When implementing an agile scrum framework, these smaller tasks are often referred to as issues, and can then be categorised into epics, stories and subtasks. This structure similarly mimics the methodology of creating long **(project)**, medium **(epic)** and short-term **(stories)** goals respectively.  
 
@@ -123,7 +123,7 @@ Each issue within the Jira Project will contain an appropriate label to ensure a
 - **Testing**: Tasks related to confirming a created component or requirement of the application works as intended
 - **High / Medium / Low Priority**: Categorise issues based on urgency
 
-![Issue labels](../T3A2-Part-A/docs/Jira/examples/issue_labels.png)  
+![Issue labels](docs/Jira/examples/issue_labels.png)  
 
 ### Task Assigning
 
@@ -133,7 +133,7 @@ Each issue within the Jira project is to be assigned to a single team member who
 
 Each issue within the Jira project will be assigned an amount of story points. The amount of points given to each issue will correlate to factors such as the amount of effort required, time required, task complexity & task uncertainty. This Jira project will follow the below matrix ([Motion Blog, 2023](https://www.usemotion.com/blog/agile-story-points)) to provide a cohesive understanding of task complexity between team members.
 
-![Jira Story Points Matrix](../T3A2-Part-A/docs/Jira/examples/jira_story_point_matrix.png)  
+![Jira Story Points Matrix](docs/Jira/examples/jira_story_point_matrix.png)  
 
 **Sprint Velocity** refers to the amount of story points that can be completed by a team within a single sprint. This metric provides the ability for a team to understand what is achievable within a sprint and integrate continuous improvement into their scrum framework. The team will assess this metric after every sprint and provide valuable insights for the next sprint planning session.
 
