@@ -100,6 +100,8 @@ The planning methodology for this project will utilise a software product develo
 
 ### Epics, Stories, Tasks
 
+![Epics, Stories & Tasks](../T3A2-Part-A/docs/Jira/examples/epic_story_task.png)  
+
 When tackling a large and difficult project, it is important to be able to breakdown the work into smaller, bite-sized tasks. When implementing an agile scrum framework, these smaller tasks are often referred to as issues, and can then be categorised into epics, stories and subtasks. This structure similarly mimics the methodology of creating long **(project)**, medium **(epic)** and short-term **(stories)** goals respectively.  
 
 **Subtask**: An actionable item which can generally be completed within 1-3 days. A group of relatable tasks will form a user story.
@@ -118,7 +120,10 @@ Each issue within the Jira Project will contain an appropriate label to ensure a
 - **Documentation**: Task related to updating or writing documentation
 - **Bug**: Issues related to a component that requires fixing
 - **Enhancement**: Tasks which are an addition / improvement to an existing feature
+- **Testing**: Tasks related to confirming a created component or requirement of the application works as intended
 - **High / Medium / Low Priority**: Categorise issues based on urgency
+
+![Issue labels](../T3A2-Part-A/docs/Jira/examples/issue_labels.png)  
 
 ### Task Assigning
 
@@ -126,9 +131,9 @@ Each issue within the Jira project is to be assigned to a single team member who
 
 ### Story Points & Sprint Velocity
 
-Each issue within the Jira project will be assigned an amount of story points. The amount of points given to each issue will correlate to factors such as the amount of effort required, time required, task complexity & task uncertainty. This Jira project will follow the below matrix to provide a cohesive understanding of task complexity between teqam members.
+Each issue within the Jira project will be assigned an amount of story points. The amount of points given to each issue will correlate to factors such as the amount of effort required, time required, task complexity & task uncertainty. This Jira project will follow the below matrix ([Motion Blog, 2023](https://www.usemotion.com/blog/agile-story-points)) to provide a cohesive understanding of task complexity between team members.
 
-(insert story point matrix here)
+![Jira Story Points Matrix](../T3A2-Part-A/docs/Jira/examples/jira_story_point_matrix.png)  
 
 **Sprint Velocity** refers to the amount of story points that can be completed by a team within a single sprint. This metric provides the ability for a team to understand what is achievable within a sprint and integrate continuous improvement into their scrum framework. The team will assess this metric after every sprint and provide valuable insights for the next sprint planning session.
 
@@ -140,13 +145,16 @@ A **product backlog** is formed by breaking down and categorising all the tasks 
 
 **Sprints**: A sprint is a team-focussed period of approximately 2-4 weeks, where each team member is assigned a certain amount of tasks which can reasonably be completed within the chosen timeframe. This will allow for better team collaboration and completion of the project in a timely manner. **Daily standups** are also to be held throughout the sprint. These involve short meetings which help the team discuss pain points, collaborate for better solutions and update the sprint backlog/tasks if required.
 
+![Project Backlog](docs/Jira/examples/Sprint_backlog.png)
+
 ### Kanban Board
 
 Jira also provides an integrated kanban board which allows a team to visually undestand task progression and ensure workflow efficiency. The progression of a task can fall under to do, in progress, testing or done.
 
+![Workflow Progress Example](docs/Jira/examples/kanban_board_eg.png)
+
 - **To Do**: A task or issue which has not been started
 - **In Progress**: A task or issue which has been started, but not yet completed
-- **Testing**: A task which has been completed but, requires testing to ensure all requirements/components work as intended
 - **Done**: A task which has been completed and tested with a success result/s
 
-(Insert Jira screenshots here)
+*(Insert Jira screenshots here)*
