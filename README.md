@@ -92,7 +92,42 @@ The application includes features such as:
 
 ## Wireframes
 
-*(Insert Wireframes here)*
+The wireframes should clearly illustrate the user journey through the web application, ensuring smooth transitions between screens. A well-structured, logical flow is essential to guide users intuitively and efficiently through the app.
+
+In the Furever Homes web application, users will transition effortlessly from one screen to another, with seamless interactions that feel natural. The wireframes should clearly indicate how each screen is connected, whether through actions like clicking buttons, submitting forms, or selecting a pet to view more details.
+
+The design balances space thoughtfully, avoiding layouts that feel cramped or overly spacious. This careful distribution of space is crucial for creating an interface that is both user-friendly and visually appealing, helping users navigate the app without feeling overwhelmed.
+
+Consistent layout is maintained across pages, with a header and footer for easy navigation. Sections are clearly defined, with distinct categories such as pets, the application list, and other features. This results in a clean, organized design that highlights key areas without overwhelming the user with clutter.
+
+Visual hierarchy principles have been applied to improve user interaction. Key actions, such as "Adopt Now" and "Submit Application," are emphasized through bold fonts and contrasting colors. Important sections, like pet profiles and the application list, are centrally placed to naturally guide users to the most relevant content.
+
+Icons and labels are used to make each button’s purpose clear. For example, the Home button displays a house icon and the "Home" label, the Favourites button uses a paw print icon, and the Profile button shows a silhouette of a head. These visual cues make it easy for users to understand what each button does.
+
+To enhance usability, subtle white space around buttons and input fields makes them more inviting and easier to interact with, creating a clean and accessible interface.
+
+The wireframes also demonstrate the connections between different screens and features. A navigation bar, present on every page, allows users to easily switch between sections like Home, Favourites, Applications, and Profile.
+
+Key interactions include the ability to favorite a pet by clicking the paw print icon, view detailed pet profiles, or track application status. The title bar on each screen provides a quick link back to the Home page for smooth navigation.
+
+Each button serves a distinct function: for example, the "Exit Profile" button takes users back to the pet list, while the "Submit Application" button leads to an application confirmation screen. Shelter admins will use buttons like "Approve" or "Reject" to update a pet’s adoption status. The wireframe clearly shows how each button and form links to other screens, ensuring a fluid, logical navigation flow for both users and admins.
+
+Throughout this process, we've developed both lo-fi and hi-fi wireframes. The lo-fi wireframes outline the basic structure and flow of the web application, while the hi-fi wireframes showcase visual elements, such as icons, buttons, and background designs. We've also created separate wireframes for mobile and desktop versions, ensuring the interface adapts to different devices. Depending on the screen size and resolution, elements and their arrangements may adjust to provide an optimal experience across devices.
+
+## Lo-Fi Wireframes
+
+![Destop - Whole Journey](/wireframe_images/(Desktop)%20Furever%20Homes%20-%20Lo%20Fi%20-%20User%20Journey.png)
+![Mobile - User Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Lo%20Fi%20-%20User%20Journey.png)
+![Mobile - Shelter Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Lo%20Fi%20-%20Shelter.png)
+
+![Lo-Fi Wireframes - individual images of each wireframe](/wireframe_images/Furever%20Homes%20-%20Lo%20Fi%20-%20Individual%20Screenshot.pdf)
+
+## Ho-Fi Wireframes
+![Destop - Whole Journey](/wireframe_images/(Desktop)%20Furever%20Homes%20-%20Hi%20Fi%20-%20User%20Journey.png)
+![Mobile - User Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Hi%20Fi%20-%20User%20Journey.png)
+![Mobile - Shelter Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Hi%20Fi%20-%20Shelter.png)
+
+![Hi-Fi Wireframes - individual images of each wireframe](/wireframe_images/Furever%20Homes%20-%20Hi%20Fi%20-%20Individual%20Screenshot.pdf)
 
 ## Project Management: Jira
 
