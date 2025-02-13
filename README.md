@@ -48,7 +48,14 @@ The application includes features such as:
 
 ## Application Architecture Diagram
 
-*(Insert Application Architecture Diagram here)*
+The Application Architecture Diagram is designed to provide a visual representation of Furever Homes system structure to understand how each layer of our application interact with each other. It defines each system component, illustrating the dataflow process from the frontend, to backend and to the database.
+
+1. **The Presentation Layer** 
+This layer handles user interactions and renders the user interface. It includes all React components, UI elements, and client-side logic responsible for displaying pet listings, user profiles, and adoption forms. The React.js frontend communicates with the backend via API requests and manages application state to provide a seamless user experience.
+
+2. 
+
+![Application Architecture Diagram](./docs/app_architecture_diagram/application_architecture_diagram.jpg)
 
 ## User Stories
 
