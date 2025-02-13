@@ -173,6 +173,8 @@ Each issue within the Jira Project will contain an appropriate label to ensure a
 
 Each issue within the Jira project is to be assigned to a single team member who will be responsible for its completion. This provides a clear delineation of tasks and enhances team coordination.
 
+![Task Assignment](docs/Jira/examples/Assignment.png)
+
 ### Story Points & Sprint Velocity
 
 Each issue within the Jira project will be assigned an amount of story points. The amount of points given to each issue will correlate to factors such as the amount of effort required, time required, task complexity & task uncertainty. This Jira project will follow the below matrix ([Motion Blog, 2023](https://www.usemotion.com/blog/agile-story-points)) to provide a cohesive understanding of task complexity between team members.
@@ -215,13 +217,16 @@ By following the agile scrum framework, our team completed the below:
 ### Screenshot Examples of Task progression throughout Part A Timeline:
 
 #### 30th January 2025
+
 ![Epic 30th Jan](docs/Jira/Epic_250130.png)
 ![Wireframes 30th Jan](docs/Jira/WF_250130.png)
 
 #### 11th February 2025
+
 ![Epic 11th Feb](docs/Jira/Epic_250211.png)
 ![Wireframes 11th Feb](docs/Jira/WF_250211.png)
 
 #### 15th February 2025
+
 ![Epic 15th Feb](docs/Jira/Epic_250215.png)
 ![Wireframes 15th Feb](docs/Jira/WF_250215.png)
