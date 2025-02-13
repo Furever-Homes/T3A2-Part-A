@@ -131,7 +131,7 @@ Throughout this process, we've developed both lo-fi and hi-fi wireframes. The lo
 
 [Lo-Fi Wireframes - individual images of each wireframe](/wireframe_images/Furever%20Homes%20-%20Lo%20Fi%20-%20Individual%20Screenshot.pdf)
 
-## Ho-Fi Wireframes
+## Hi-Fi Wireframes
 ![Destop - Whole Journey](/wireframe_images/(Desktop)%20Furever%20Homes%20-%20Hi%20Fi%20-%20User%20Journey.png)
 ![Mobile - User Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Hi%20Fi%20-%20User%20Journey.png)
 ![Mobile - Shelter Journey](/wireframe_images/(Mobile)%20Furever%20Homes%20-%20Hi%20Fi%20-%20Shelter.png)
