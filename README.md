@@ -9,7 +9,7 @@ A Pet Adoption & Shelter Management Application
 3) [Application Architecture Diagram](#application-architecture-diagram)
 4) [User Stories](#user-stories)
 5) [Wireframes](#wireframes)
-6) [Jira](#jira)
+6) [Project Management: Jira](#project-management-jira)
 
 ## What is "Furever Homes"?
 
