@@ -44,7 +44,7 @@ The application includes features such as:
 
 ## Dataflow Diagram
 
-*(Insert Dataflow Diagram here)*
+https://app.diagrams.net/#
 
 ## Application Architecture Diagram
 
@@ -52,43 +52,45 @@ The application includes features such as:
 
 ## User Stories
 
-### Persona 1
+### Persona 1 
 
-**Who**: Pet Adopter  
-**What**: Want to browse pets with images and information about each of them  
-**Why**: To explore potential pets that fit in with my lifestyle and preferences
+**Who**: Pet Adopter/Explorer 
+**What**: Want to browse pets with images and information about each of them (breed, age, activity level, health status)
+**Why**: To explore potential pets that fit in with my lifestyle and preferences before making a decision
 
-**REFINEMENT**: Initially lacked filtering options, but was refined to have a filtering option to ensure there wasn't an overwhelming number of pets being displayed
+**REFINEMENT**: Initially lacked filtering options, but was overwhelming.Refined to have a filtering option (pet type, age, activity level, breed) to help users narrow their search and find the most suitable pets faster.
 
 ### Persona 2
 
-**Who**: Pet Adopter  
+**Who**: The Serious Pet Adopter  
 **What**: Want to submit an adoption application  
 **Why**: In order to express interest in a particular pet and give necessary details to the shelter
 
-**REFINEMENT**: Applications include personalised questions such as experience, home environment, other pets to help admins make better decisions
+**REFINEMENT**: Applications initially involved only basic information but were refined to include personalised questions such as experience, home environment, other pets to help admins make better decisions
 
 ### Persona 3
 
-**Who**: Pet Adopter  
+**Who**: The Planner Pet Adopter
 **What**: Want to save pets to a shortlist of favourites  
 **Why**: To be able to revisit the pets I'm interested in and be able to consider how they can fit into my life before committing immediately
 
+**REFINEMENT**: Initially users could favorite pets, but there was no way to access their saved list, but a favourites section was added where users can view their saved pets
+
 ### Persona 4
 
-**Who**: Shelter Admin
+**Who**: Shelter Admin- Decision Maker
 **What**: Need to review adoption applications for people looking to adopt pets
 **Why**: To ensure we match pets with suitable homes, which are responsible and prepared to host
 
-**REFINEMENT**: Sorting applications allocated to particular pets to compare applicants to ensure the pets are matched with the best suited home and no application is overlooked
+**REFINEMENT**: Sorting applications allocated to particular pets to group applications by pet, making it easier to compare applicants and make sure each pet goes to the best home.
 
 ### Persona 5
 
-**Who**: Shelter Admin
+**Who**: Shelter Admin - The Caretaker
 **What**: Need to add new pets to the system
 **Why**: To allow people to browse and apply for pets
 
-**REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles.
+**REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles to provide more transparency to adopters.
 
 ## Wireframes
 
