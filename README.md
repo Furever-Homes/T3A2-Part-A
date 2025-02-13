@@ -59,10 +59,10 @@ This layer handles user interactions and renders the user interface. It includes
 
 ## User Stories
 
-### Persona 1 
+### Persona 1
 
-**Who**: Pet Adopter/Explorer 
-**What**: Want to browse pets with images and information about each of them (breed, age, activity level, health status)
+**Who**: Pet Adopter/Explorer  
+**What**: Want to browse pets with images and information about each of them (breed, age, activity level, health status)  
 **Why**: To explore potential pets that fit in with my lifestyle and preferences before making a decision
 
 **REFINEMENT**: Initially lacked filtering options, but was overwhelming.Refined to have a filtering option (pet type, age, activity level, breed) to help users narrow their search and find the most suitable pets faster.
@@ -77,7 +77,7 @@ This layer handles user interactions and renders the user interface. It includes
 
 ### Persona 3
 
-**Who**: The Planner Pet Adopter
+**Who**: The Planner Pet Adopter  
 **What**: Want to save pets to a shortlist of favourites  
 **Why**: To be able to revisit the pets I'm interested in and be able to consider how they can fit into my life before committing immediately
 
@@ -85,16 +85,16 @@ This layer handles user interactions and renders the user interface. It includes
 
 ### Persona 4
 
-**Who**: Shelter Admin- Decision Maker
-**What**: Need to review adoption applications for people looking to adopt pets
+**Who**: Shelter Admin- Decision Maker  
+**What**: Need to review adoption applications for people looking to adopt pets  
 **Why**: To ensure we match pets with suitable homes, which are responsible and prepared to host
 
 **REFINEMENT**: Sorting applications allocated to particular pets to group applications by pet, making it easier to compare applicants and make sure each pet goes to the best home.
 
 ### Persona 5
 
-**Who**: Shelter Admin - The Caretaker
-**What**: Need to add new pets to the system
+**Who**: Shelter Admin - The Caretaker  
+**What**: Need to add new pets to the system  
 **Why**: To allow people to browse and apply for pets
 
 **REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles to provide more transparency to adopters.
@@ -201,4 +201,27 @@ Jira also provides an integrated kanban board which allows a team to visually un
 - **In Progress**: A task or issue which has been started, but not yet completed
 - **Done**: A task which has been completed and tested with a success result/s
 
-*(Insert Jira screenshots here)*
+By following the agile scrum framework, our team completed the below:
+
+- **28th Jan 2025**: 1st Introduction / Brainstorm Meeting
+- **30th Jan 2025**: 1st Sprint Planning Session (Sprint 1)
+- **1st Feb 2025**: Finalise Sprint Planning (Sprint 1)
+- **5th Feb 2025**: 1st Stand Up - Working on drafts for each assignment component
+- **7th Feb 2025**: 2nd Stand Up - Continue working on drafts and group discussion / brainstorming
+- **11th Feb 2025**: 3rd Stand Up - Conduct Project Team review of final drafts
+- **13th Feb 2025**: 4th Stand Up - Review final documentation
+- **16th Feb 2025**: 5th Stand Up - Final checks & submission
+
+### Screenshot Examples of Task progression throughout Part A Timeline:
+
+#### 30th January 2025
+![Epic 30th Jan](docs/Jira/Epic_250130.png)
+![Wireframes 30th Jan](docs/Jira/WF_250130.png)
+
+#### 11th February 2025
+![Epic 11th Feb](docs/Jira/Epic_250211.png)
+![Wireframes 11th Feb](docs/Jira/WF_250211.png)
+
+#### 15th February 2025
+![Epic 15th Feb](docs/Jira/Epic_250215.png)
+![Wireframes 15th Feb](docs/Jira/WF_250215.png)
