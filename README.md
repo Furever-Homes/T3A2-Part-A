@@ -44,7 +44,7 @@ The application includes features such as:
 
 ## Dataflow Diagram
 
-https://app.diagrams.net/#
+![Dataflow Diagram](./docs/dataflow_diagram.png)
 
 ## Application Architecture Diagram
 
