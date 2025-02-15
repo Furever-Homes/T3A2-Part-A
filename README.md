@@ -50,12 +50,22 @@ The application includes features such as:
 
 The Application Architecture Diagram is designed to provide a visual representation of Furever Homes system structure to understand how each layer of our application interact with each other. It defines each system component, illustrating the dataflow process from the frontend, to backend and to the database.
 
-1. **The Presentation Layer** 
-This layer handles user interactions and renders the user interface. It includes all React components, UI elements, and client-side logic responsible for displaying pet listings, user profiles, and adoption forms. The React.js frontend communicates with the backend via API requests and manages application state to provide a seamless user experience.
+1. **Presentation Layer**  
+This layer handles user interactions and renders the entire user interface. It includes all React components, UI elements, and client-side logic that is responsible for displaying all pet listings, user profiles, and adoption forms. Utilising React.js, the frontend communicates with the backend through API requests and manages the application state which provide a seamless user experience.
 
-2. 
+2. **Business Logic Layer**  
+This Business Logic Layer contains the core application logic, business rules, and processing workflows. The Node.js & Express.js backend acts as an intermediary between the frontend and the database, which manages components such as:
 
-![Application Architecture Diagram](./docs/app_architecture_diagram/application_architecture_diagram.jpg)
+    - API controllers that handle all API requests from the frontend related to pets, users, and adoptions. 
+    - All business logic for features such as checking pet availability, authenticating users and adoption request validiation checks are all encapsulated into services.
+    - Middleware that manages authentication utilising JWT verification, logins and error handling.
+
+3. **Data Access Layer (Database - MongoDB & Mongoose)**  
+This layer purpose is to ensure persistent and accurate data retrieval. The MongoDB database stores structured information about pets, users, and adoption processes, while the Mongoose ORM facilitates interactions with the database by defining schemas and executing queries. This ensures efficient data storage, retrieval, and updates while maintaining consistency and integrity.
+
+By structuring the application into these three layers, we ensure modularity, maintainability, and scalability, making it easier to manage and expand our pet adoption platform with future updates.
+
+![Application Architecture Diagram](docs/app_arch_diagram/Application_architecture_diagram.jpg)
 
 ## User Stories
 
