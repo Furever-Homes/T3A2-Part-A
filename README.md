@@ -121,7 +121,7 @@ By structuring the application into these three layers, we ensure modularity, ma
 
 ### Persona 4
 
-**Who**: Shelter Admin- Decision Maker  
+**Who**: Shelter Admin - Decision Maker  
 **What**: Need to review adoption applications for people looking to adopt pets  
 **Why**: To ensure we match pets with suitable homes, which are responsible and prepared to host
 
