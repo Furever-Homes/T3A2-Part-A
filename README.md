@@ -44,7 +44,7 @@ The application includes features such as:
 
 ## Dataflow Diagram
 
-![Dataflow Diagram](./docs/Jira/examples/dataflow_diagram.png)
+![Dataflow Diagram](docs/dataflow_diagram/dataflow_diagram.png)
 
 ## Application Architecture Diagram
 
