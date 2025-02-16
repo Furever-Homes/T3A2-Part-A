@@ -24,6 +24,7 @@ The application includes features such as:
 - Secure user registration & login using JWT Authentication
 
 ### Tech Stack
+
 <div align="center">
     <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white" height=30>
     <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" height=30>
@@ -44,7 +45,32 @@ The application includes features such as:
 
 ## Dataflow Diagram
 
-![Dataflow Diagram](docs/dataflow_diagram/dataflow_diagram.png)
+The "Furever Homes" platform allows users to browse, favourite, and apply for pet adoptions. The system consists of three main collections (Users, Pets, and Applications). The Data Flow Diagram (DFD) follows standard conventions, clearly illustrating how data is created, stored, and transferred between users and the system.
+
+1. User Interaction with User Database
+    - Users can register and log in securely using JWT authentication. The Users database stores user profile details, security details and roles (pet adopter or shelter admin).
+
+2. Pet Browsing and Favouriting
+    - Adopters can search and filter pets based on criteria such as breed, age, activity level & health status. Pet data is fetched from the Pets database and displayed to users. Adopters can favourite pets, which is stored as a reference in the Users collection.
+
+3. Adoption Application Process
+    - Adopters can submit an application for adopting a pet, linking their user ID to the pet’s ID. The application is stored in the Applications database with a status of "submitted". Shelter admins can review applications, then either approve or reject them. If approved, the pet's status is updated to "adopted" in the Pets database.
+
+4. Secure Data Management
+    - All user authentication processes are handled securely using JWT tokens. Data is only accessible based on user roles:
+        - Guest users can only view pets.
+        - Adopters can only view and apply for pets.
+        - Shelter admins can manage pet listings and review applications.
+
+The DFD visually represents these processes, showing the flow of data between users, databases, and the application logic. It ensures a structured and clear depiction of how data is managed, stored, and accessed throughout the system.
+
+### Dataflow Diagram - Context Diagram
+
+![Context Diagram](<docs/dataflow_diagram/DFD Context Diagram.png>)
+
+### Dataflow Diagram - Mid Level
+
+![DFD - Mid Level](<docs/dataflow_diagram/DFD Mid Level.png>)
 
 ## Application Architecture Diagram
 
@@ -75,7 +101,7 @@ By structuring the application into these three layers, we ensure modularity, ma
 **What**: Want to browse pets with images and information about each of them (breed, age, activity level, health status)  
 **Why**: To explore potential pets that fit in with my lifestyle and preferences before making a decision
 
-**REFINEMENT**: Initially lacked filtering options, but was overwhelming.Refined to have a filtering option (pet type, age, activity level, breed) to help users narrow their search and find the most suitable pets faster.
+**REFINEMENT**: Initially lacked filtering options, but was overwhelming. Refined to have a filtering option (pet type, age, activity level, breed) to help users narrow their search and find the most suitable pets faster
 
 ### Persona 2
 
@@ -91,7 +117,7 @@ By structuring the application into these three layers, we ensure modularity, ma
 **What**: Want to save pets to a shortlist of favourites  
 **Why**: To be able to revisit the pets I'm interested in and be able to consider how they can fit into my life before committing immediately
 
-**REFINEMENT**: Initially users could favorite pets, but there was no way to access their saved list, but a favourites section was added where users can view their saved pets
+**REFINEMENT**: Initially users could favourite pets, but there was no way to access their saved list, but a favourites section was added where users can view their saved pets
 
 ### Persona 4
 
@@ -99,7 +125,7 @@ By structuring the application into these three layers, we ensure modularity, ma
 **What**: Need to review adoption applications for people looking to adopt pets  
 **Why**: To ensure we match pets with suitable homes, which are responsible and prepared to host
 
-**REFINEMENT**: Sorting applications allocated to particular pets to group applications by pet, making it easier to compare applicants and make sure each pet goes to the best home.
+**REFINEMENT**: Sorting applications allocated to particular pets to group applications by pet, making it easier to compare applicants and make sure each pet goes to the best home
 
 ### Persona 5
 
@@ -107,7 +133,7 @@ By structuring the application into these three layers, we ensure modularity, ma
 **What**: Need to add new pets to the system  
 **Why**: To allow people to browse and apply for pets
 
-**REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles to provide more transparency to adopters.
+**REFINEMENT**: Inclusion of images as well as descriptions that include breed and health details and availablity status. Pets now have the status (available, considering applicants, adopted) on their profiles to provide more transparency to adopters
 
 ## Wireframes
 
@@ -121,13 +147,13 @@ Consistent layout is maintained across pages, with a header and footer for easy 
 
 Visual hierarchy principles have been applied to improve user interaction. Key actions, such as "Adopt Now" and "Submit Application," are emphasized through bold fonts and contrasting colors. Important sections, like pet profiles and the application list, are centrally placed to naturally guide users to the most relevant content.
 
-Icons and labels are used to make each button’s purpose clear. For example, the Home button displays a house icon and the "Home" label, the Favourites button uses a paw print icon, and the Profile button shows a silhouette of a head. These visual cues make it easy for users to understand what each button does.
+Icons and labels are used to make each button’s purpose clear. For example, the Home button displays a house icon and the "Home" label, the favourites button uses a paw print icon, and the Profile button shows a silhouette of a head. These visual cues make it easy for users to understand what each button does.
 
 To enhance usability, subtle white space around buttons and input fields makes them more inviting and easier to interact with, creating a clean and accessible interface.
 
 The wireframes also demonstrate the connections between different screens and features. A navigation bar, present on every page, allows users to easily switch between sections like Home, Favourites, Applications, and Profile.
 
-Key interactions include the ability to favorite a pet by clicking the paw print icon, view detailed pet profiles, or track application status. The title bar on each screen provides a quick link back to the Home page for smooth navigation.
+Key interactions include the ability to favourite a pet by clicking the paw print icon, view detailed pet profiles, or track application status. The title bar on each screen provides a quick link back to the Home page for smooth navigation.
 
 Each button serves a distinct function: for example, the "Exit Profile" button takes users back to the pet list, while the "Submit Application" button leads to an application confirmation screen. Shelter admins will use buttons like "Approve" or "Reject" to update a pet’s adoption status. The wireframe clearly shows how each button and form links to other screens, ensuring a fluid, logical navigation flow for both users and admins.
 
